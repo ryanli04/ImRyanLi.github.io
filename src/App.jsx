@@ -20,6 +20,7 @@ const App = () => {
           <Contact/>
           {/* <StarsCanvas/> */}
         </div>
+        <div className="text-sm">Credit: @JavaScript Mastery</div>
       </div>
     </BrowserRouter>
   );
