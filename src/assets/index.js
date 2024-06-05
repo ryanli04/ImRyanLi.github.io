@@ -31,7 +31,8 @@ import first from "./company/first.png"
 
 import airbnbclone from "./airbnbclone.png";
 import lidar from "./lidar.png";
-import pathfind from "./pathfind.png"
+import pathfind from "./pathfind.png";
+import lego from "./lego.png"
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   retaildata,
   mes,
   peel,
-  first
+  first,
+  lego
 };

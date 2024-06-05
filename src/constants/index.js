@@ -24,7 +24,8 @@ import {
     retaildata,
     mes,
     peel,
-    first
+    first,
+    lego
   } from "../assets";
   
   export const navLinks = [
@@ -250,6 +251,27 @@ import {
       ],
       image: pathfind,
       source_code_link: "https://github.com/ryanli04/A-PathFinding",
+    },
+    {
+      name: "Lego Minifigure Playground",
+      description:
+        "A fun customizable lego minifigure playground.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lego,
+      source_code_link: "https://github.com/ryanli04/Lego-Minifigure-Playground",
     },
   ];
   
