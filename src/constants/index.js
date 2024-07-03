@@ -131,7 +131,7 @@ import {
       date: "Sep 2023 - April 2024",
       points: [
         "Designed, developed, and maintained the McMaster Engineering Society website using HTML, Tailwind CSS, TypeScript, and Next.js.",
-        "Utlizied Git for version control and collaborated with team members through platforms like Github, ensuring smooth and organized development workflows.",
+        "Utilized Git for version control and collaborated with team members through platforms like Github, ensuring smooth and organized development workflows.",
       ],
     },
     {
