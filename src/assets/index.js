@@ -32,7 +32,8 @@ import first from "./company/first.png"
 import airbnbclone from "./airbnbclone.png";
 import lidar from "./lidar.png";
 import pathfind from "./pathfind.png";
-import lego from "./lego.png"
+import lego from "./lego.png";
+import cell from "./cellgrowth.png"
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   mes,
   peel,
   first,
-  lego
+  lego,
+  cell
 };

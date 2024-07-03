@@ -25,7 +25,8 @@ import {
     mes,
     peel,
     first,
-    lego
+    lego,
+    cell
   } from "../assets";
   
   export const navLinks = [
@@ -122,6 +123,17 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Infrastructure Team",
+      company_name: "McMaster Engineering Society",
+      icon: mes,
+      iconBg: "#383E56",
+      date: "Sep 2023 - April 2024",
+      points: [
+        "Designed, developed, and maintained the McMaster Engineering Society website using HTML, Tailwind CSS, TypeScript, and Next.js.",
+        "Utlizied Git for version control and collaborated with team members through platforms like Github, ensuring smooth and organized development workflows.",
+      ],
+    },
     {
       title: "Publications Editor",
       company_name: "McMaster Engineering Society",
@@ -240,7 +252,7 @@ import {
       source_code_link: "https://github.com/ryanli04/LiDAR-Scanner",
     },
     {
-      name: "A* Pathfinding",
+      name: "A* Pathfinding Simulation",
       description:
         "A* search algorithm path finding visualizer using python.",
       tags: [
@@ -272,6 +284,27 @@ import {
       ],
       image: lego,
       source_code_link: "https://github.com/ryanli04/Lego-Minifigure-Playground",
+    },
+    {
+      name: "Cell Growth Simulator",
+      description:
+        "React application that simulates the growth of bacterial cells on a grid representing a petri dish.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cell,
+      source_code_link: "https://github.com/ryanli04/CellGrowthSimulation",
     },
   ];
   
